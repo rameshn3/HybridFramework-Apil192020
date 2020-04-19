@@ -4,7 +4,6 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
-
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -69,7 +68,7 @@ public void setup() throws IOException {
 public void tearDown() {
 	
 	if(driver!=null) {
-		driver.close();
+		driver.quit();
 	}
 }
 
