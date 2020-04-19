@@ -1,8 +1,0 @@
-com\qa\linkedin\page\LinkedinHomePage.class
-com\qa\linkedin\page\LinkedinLoggedinPage.class
-com\qa\linkedin\util\ExtentManager.class
-com\qa\linkedin\util\TestUtil.class
-com\qa\linkedin\base\TestBase.class
-com\qa\linkedin\page\SearchResultsPage.class
-com\qa\linkedin\listeners\ExtentReportListener.class
-com\qa\linkedin\util\ExcelUtils.class
